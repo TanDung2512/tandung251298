@@ -1,0 +1,36 @@
+#include <iostream>
+#include <queue>
+#include <vector>
+#include <list>
+using namespace std;
+// struct value{
+//   long int data;
+//   bool check;
+// };
+// void inputgraph(vector<vector<long int> >&graph){
+//     struct value temp;
+//     temp.data=0;
+//     for (int i = 1; i <=numberKey; i++) {
+//       graph[i].push_back(temp);
+//     }
+//
+//     for(int i=1;i<=numberKey;i++){
+//       for(int j=1;j<=numberKey,j++){
+//         if(i!=j){
+//           temp.data=j;
+//           graph[i].push_back(temp);
+//         }
+//       }
+//     }
+// }
+int main(int argc, const char * argv[]){
+  // vector<vector<struct value> > graph;
+  // long int lockkey, SamKeyn,numberKey;
+  // cin>>samKeyn>>lockKey>>numberKey;
+  // int *arrayOfNode=new int [numberKey+1];
+  // int inputvalue;
+  // for(int i=1;i<=numberKey;i++){
+  //   cin>>arrayOfNode[i];
+  // }
+  return 0;
+}

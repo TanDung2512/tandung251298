@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+char*upper(char *arr,int n){
+  for(int i=0;i<arr.size();i++){
+    if(arr[i]>=65 && arr[i]<=90){
+      arr[i]=(char)(arr[i]+32);
+    }
+  }
+  return arr;
+}
+int main(){
+  char arr[6]={'a','B','c','d','3','\0'};
+  cout<<arr<<endl;
+  arr=upper (arr,5);
+  cout<<arr;
+  return 0;
+}

@@ -1,0 +1,27 @@
+In file included from /Users/nguyentandung/Desktop/execirses programming/C++ programming/BigOcoding/day10/test/test/main.cpp:9:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iostream:38:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ios:216:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale:15:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:439:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:628:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:606:
+In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:343:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__functional_base:63:21: error: invalid operands to binary expression ('const value' and 'const value')
+        {return __x < __y;}
+                ~~~ ^ ~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:4820:13: note: in instantiation of member function 'std::__1::less<value>::operator()' requested here
+        if (__comp(*__ptr, *--__last))
+            ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/algorithm:4848:5: note: in instantiation of function template specialization 'std::__1::__sift_up<std::__1::less<value> &, std::__1::__wrap_iter<value *> >' requested here
+    __sift_up<_Comp_ref>(__first, __last, __comp, __last - __first);
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/queue:649:12: note: in instantiation of function template specialization 'std::__1::push_heap<std::__1::__wrap_iter<value *>, std::__1::less<value> >' requested here
+    _VSTD::push_heap(c.begin(), c.end(), comp);
+           ^
+/Users/nguyentandung/Desktop/execirses programming/C++ programming/BigOcoding/day10/test/test/main.cpp:32:22: note: in instantiation of member function 'std::__1::priority_queue<value, std::__1::vector<value, std::__1::allocator<value> >, std::__1::less<value> >::push' requested here
+            priority.push(temp);
+                     ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:430:1: note: candidate template ignored: could not match 'pair<type-parameter-0-0, type-parameter-0-1>' against 'const value'
+operator< (const pair<_T1,_T2>& __x, const pair<_T1,_T2>& __y)
+^
+1 error generated.

@@ -1,0 +1,6 @@
+ld: warning: ignoring file /Users/nguyentandung/Desktop/execirses programming/C++ programming/BigOcoding/day6/B. Igor and his way to work, file was built for unsupported file format ( 0x23 0x69 0x6E 0x63 0x6C 0x75 0x64 0x65 0x20 0x3C 0x69 0x6F 0x73 0x74 0x72 0x65 ) which is not the architecture being linked (x86_64): /Users/nguyentandung/Desktop/execirses programming/C++ programming/BigOcoding/day6/B. Igor and his way to work
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
